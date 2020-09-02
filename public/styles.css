@@ -1,0 +1,31 @@
+.home {
+  background-image: url('images/home.jpg');
+}
+
+.about {
+  background-image: url('images/about.jpg');
+}
+
+.works {
+  background-image: url('images/works.jpg');
+}
+
+.home, .about, .works {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  margin: 1rem;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0 0 20px 1px rgba(0,0,0,0.75);
+}
+
+main {
+  height: calc(100vh - 80px);
+}
