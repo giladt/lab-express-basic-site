@@ -10,7 +10,7 @@
   background-image: url('images/works.jpg');
 }
 
-.home, .about, .works {
+.home, .about, .works, .gallery {
   margin: 0;
   padding: 0;
   height: 100vh;
